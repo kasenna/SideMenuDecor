@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SideMenuDecorExample</string>
+    <string name="ripple_button">RippleButton</string>
+    <string name="ripple_image_button">RippleImageButton</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/ripple_button"
+            android:textSize="20sp"/>
+
+        <karpen74us.sidemenudecor.RippleButton
+            android:id="@+id/ripple_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#efefef"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ripple_image_button"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"/>
+
+        <karpen74us.sidemenudecor.RippleImageButton
+            android:id="@+id/ripple_image_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#efefef"/>
+
+    </LinearLayout>
+
+</ScrollView>
